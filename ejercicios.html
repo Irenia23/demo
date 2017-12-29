@@ -9,5 +9,213 @@
     <p>These are some exercises!</p>
     <p>Envíe sus inquietudes <a href="mailto:ireniavillalba13@gmail.com?body=Me gustaría hacer algunas sugerencias para el mejoramiento de las actividades">aquí.</a> ----> Aunque esto está desaconsejado y no se debe hacer.
     </p>
+
+    <h3>Análisis de ventas</h3>
+     
+    <table summary="Análisis de ventas anuales" border="2" style="border-color: black">
+
+      <caption>Análisis de ventas anuales</caption>
+      <thead>
+        <tr>
+          <th rowspan="2" scope="col">AÑO</th>
+          <th colspan="4" scope="col">Expansión de ventas</th>
+        </tr>
+        <tr>
+          <th scope="col">Producto A</th>
+          <th scope="col">Producto B</th>
+          <th scope="col">Producto C</th>
+          <th scope="col">Producto D</th>
+        </tr>
+      </thead>
+     
+      <tfoot>
+        <tr>
+          <th rowspan="2" scope="col">AÑO</th>
+          <th scope="col">Producto A</th>
+          <th scope="col">Producto B</th>
+          <th scope="col">Producto C</th>
+          <th scope="col">Producto D</th>
+        </tr>
+        <tr>
+          <th colspan="4" scope="col">Expansión de ventas</th>
+        </tr>
+      </tfoot>
+     
+      <tbody>
+        <tr>
+          <th scope="row">N-3</th><td>-</td><td>-</td><td>-</td><td>-</td>
+        </tr>
+        <tr>
+          <th scope="row">N-2</th><td>3</td><td>5</td><td>8</td><td>4</td>
+        </tr>
+        <tr>
+          <th scope="row">N-1</th><td>4</td><td>4</td><td>7</td><td>3</td>
+        </tr>
+        <tr>
+          <th scope="row">N</th><td>5</td><td>7</td><td>6</td><td>2</td>
+        </tr>
+      </tbody>
+
+    </table>
+
+    <br />
+
+    <table summary="Análisis de ventas anuales" border="2" style="border-color: black">
+
+      <caption>Análisis de ventas anuales</caption>
+     
+      <colgroup span="1" style="color:red;" />
+      <colgroup span="3" style="color:blue;" />
+     
+      <thead>
+        <tr>
+          <th scope="col">AÑO</th>
+          <th scope="col">Producto A</th>
+          <th scope="col">Producto B</th>
+          <th scope="col">Producto C</th>
+          <th scope="col">Producto D</th>
+        </tr>
+      </thead>
+     
+      <tbody>
+        <tr>
+          <th scope="row">N-3</th><td>-</td><td>-</td><td>-</td><td>-</td>
+        </tr>
+        <tr>
+          <th scope="row">N-2</th><td>3</td><td>5</td><td>8</td><td>4</td>
+        </tr>
+        <tr>
+          <th scope="row">N-1</th><td>4</td><td>4</td><td>7</td><td>3</td>
+        </tr>
+        <tr>
+          <th scope="row">N</th><td>5</td><td>7</td><td>6</td><td>2</td>
+        </tr>
+      </tbody>
+
+    </table>
+
+    <br/>
+
+    <form action="" method="POST" enctype="multipart/form-data">
+      
+    <input type="text" name="">
+    <br/>
+
+    <input type="password" name="">
+    <br/>
+
+    <input type="radio" name="">
+    <br/>
+
+    <input type="submit" name="">
+    <br/>
+
+    <input type="checkbox" name="">
+    <br/>
+
+    <input type="file" name="">
+    <br/>
+
+    <input type="hidden" name="">
+    <br/>
+
+    <input type="image" name="">
+    <br/>
+
+    <input type="button" name="">
+    <br/>
+
+    <input type="textarea" name="">
+    <br/>
+
+    <input type="color" name="">
+    <br/>
+
+    <input type="reset" name="" value="Limpiar">
+    <br/>
+
+    </form>
+
+    <form action="" method="" style="width: 12%">
+
+      <fieldset>
+        <legend>Datos personales</legend>
+        Nombre <br/>
+        <input type="text" name="nombre" value="" />
+        <br/>
+        Apellidos <br/>
+        <input type="text" name="apellidos" value="" />
+        <br/>
+        DNI <br/>
+        <input type="text" name="dni" value="" size="10" maxlength="9" />
+      </fieldset>
+     
+      <fieldset>
+        <legend>Datos de conexión</legend>
+        Nombre de usuario<br/>
+        <input type="text" name="nombre" value="" maxlength="10" />
+        <br/>
+        Contraseña<br/>
+        <input type="password" name="password" value="" maxlength="10" />
+        <br/>
+        Repite la contraseña<br/>
+        <input type="password" name="password2" value="" maxlength="10" />
+      </fieldset>
+
+    </form>
+
+    <form action="" method="post">
+     
+    <label for="nombre">Nombre del producto</label> <br/>
+    <input type="text" id="nombre" name="nombre" value="" />
+     
+    <label for="descripcion">Descripción del producto</label> <br/>
+    <textarea id="descripcion" name="descripcion" cols="40" rows="5"></textarea>
+     
+    </form>
+
+    <label for="so">Sistema operativo</label> <br/>
+    <select id="so" name="so">
+      <option value="" selected="selected">- selecciona -</option>
+      <option value="windows">Windows</option>
+      <option value="mac">Mac</option>
+      <option value="linux">Linux</option>
+      <option value="otro">Otro</option>
+    </select>
+     
+    <label for="so2">Sistema operativo</label> <br/>
+    <select id="so2" name="so2" size="5">
+      <option value="windows" selected="selected">Windows</option>
+      <option value="mac">Mac</option>
+      <option value="linux">Linux</option>
+      <option value="otro">Otro</option>
+    </select>
+     
+    <label for="so3">Sistema operativo</label> <br/>
+    <select id="so3" name="so3" size="5" multiple="multiple">
+      <option value="windows" selected="selected">Windows</option>
+      <option value="mac">Mac</option>
+      <option value="linux">Linux</option>
+      <option value="otro">Otro</option>
+    </select>
+
+    <br/><br/>
+
+    <label for="lista">Animal preferido:</label>
+    <select id="lista" name="lista">
+      <option value="selecciona" selected="selected">--Selecciona--</option>
+      <optgroup label="Domésticos">
+        <option value="opcio1">Perro</option>
+        <option value="opcion2">Gato</option>
+        <option value="opcion3">Loro</option>
+      </optgroup>
+      
+      <optgroup label="Salvajes">
+        <option value="opcio1">León</option>
+        <option value="opcion2">Tigre</option>
+        <option value="opcion3">Cocodrilo</option>
+      </optgroup>
+      
+    </select>
 </body>
 </html>
